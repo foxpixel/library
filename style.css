@@ -1,0 +1,97 @@
+ body{
+    background-color: rgba(0,0,0,0.99);
+} 
+form{
+    font-size: 20px;
+    color: grey;
+}
+
+input{
+    width: 30%;
+    padding: 10px 10px;
+    border: 2px solid green;
+    border-radius: 100px;
+
+}
+
+input[type=text],[type=email],[type=number]{
+    background-color: rgba(0,255,0,0.1);
+    color: grey;
+  }
+  
+.btn{
+    margin-left: 100px;
+    padding: 11px;
+    color: black;
+}
+
+.btn:hover{
+    background-color: grey;
+}
+
+.uld{
+    list-style-type: none ;
+    
+   
+  
+}
+
+li{
+    
+    display: inline;
+    float: right;
+    
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+li a:hover {
+    background-color: #111;
+    color: teal;
+  }
+
+.im1{
+    display: block;
+    background-image: url("lib.jpg");
+    background-size: cover;
+}
+
+.hstyle{
+    font-size: 20px;
+    position: absolute;
+    z-index: 2;
+    bottom: 50%;
+}
+
+.hstyle1{
+    position: absolute;
+    margin: 25% 1%;
+}
+.hstyle2{
+    position: relative;
+    margin-top: 32%;
+    margin-left: 10%;
+}
+.hstyle3{
+    position: relative;
+    margin-top:32%;
+    margin-left: 50px;
+}
+
+.flex-container {
+    display: flex;
+  }
+
+  .flex-container{
+    justify-content: space-around;
+  }
+
+  img:hover{
+      filter: blur(6px);
+  }
+
